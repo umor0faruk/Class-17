@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  box-sizing: content-box;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0e0e0;
+}
+
+.bmi-calculator {
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 5px 5px 10px #c1c1c1,
+    -5px -5px 10px #ffffff;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.input {
+  margin: 10px 0;
+
+}
+
+.input input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 20px;
+  width: 100px;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.calculate {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #e4c495;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px #c1c1c1,
+    -5px -5px 10px #ffffff;
+}
+
+.bmi-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bmi-status div {
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.Underweight {
+  background-color: #ffc0cb;
+}
+
+.Normal {
+  background-color: #90ee90;
+}
+
+.Overweight {
+  background-color: #ffa07a;
+}
+
+.Obese {
+  background-color: #ff0000;
+}
+
+.Underweight,
+.Normal,
+.Overweight,
+.Obese {
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
+}
